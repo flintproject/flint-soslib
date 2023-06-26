@@ -1,0 +1,11 @@
+--- a/Makefile.am	2022-05-24 13:59:54
++++ b/Makefile.am	2023-06-23 01:09:40
+@@ -35,7 +35,7 @@
+ ##   SUBDIRS = src odeSolver bindings
+ ##else
+ 
+-   SUBDIRS = src odeSolver examples tutorial
++   SUBDIRS = src
+ if UNITTEST
+ SUBDIRS += unittest
+ endif
