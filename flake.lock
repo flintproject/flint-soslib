@@ -8,16 +8,17 @@
         ]
       },
       "locked": {
-        "lastModified": 1687787797,
-        "narHash": "sha256-3ThnkoIEva7S928Q8+e9guYkXxXlIlVEvF/armMTlUM=",
+        "lastModified": 1688045930,
+        "narHash": "sha256-BiW0a+xxgjZzrBOwC8It0iLpI1gAv15+YToCbwvs6XI=",
         "owner": "flintproject",
         "repo": "flint-libsbml",
-        "rev": "77d5b0d8ad4853e2ba0ee1534655a922eb80b75f",
+        "rev": "30766407c7d6f692d94f77a6e1cdd7a4a7d02f84",
         "type": "github"
       },
       "original": {
         "owner": "flintproject",
         "repo": "flint-libsbml",
+        "rev": "30766407c7d6f692d94f77a6e1cdd7a4a7d02f84",
         "type": "github"
       }
     },
