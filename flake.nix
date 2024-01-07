@@ -1,10 +1,10 @@
 {
   description = "A flake for building SOSlib for Flint";
 
-  inputs.nixpkgs.url = github:NixOS/nixpkgs/nixos-23.05;
+  inputs.nixpkgs.url = github:NixOS/nixpkgs/nixos-23.11;
 
   inputs.flint-libsbml = {
-    url = github:flintproject/flint-libsbml/f4a93d6a98d4709e57679942d738ef6c5b91b25d;
+    url = github:flintproject/flint-libsbml;
     inputs.nixpkgs.follows = "nixpkgs";
   };
 
@@ -40,7 +40,10 @@
 
         src = soslib;
 
-        patches = [ ./makefile-am.patch ];
+        patches = [
+          ./patches/makefile-am.patch
+          ./patches/CVDlsDenseJacFn-IDADlsDenseJacFn-long-int.patch
+        ];
 
         configureFlags = [
           # "--enable-unittest"
