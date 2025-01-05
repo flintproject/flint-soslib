@@ -8,16 +8,17 @@
         ]
       },
       "locked": {
-        "lastModified": 1704638148,
-        "narHash": "sha256-zeKZ/2QFzMur8iuD/QLC5Vr7ZrrsiMNS4bJsTn6s0sk=",
+        "lastModified": 1736085470,
+        "narHash": "sha256-vXVMWliiIAULH1XI6liP5D2f42ShRsvHv5J+6xwGRis=",
         "owner": "flintproject",
         "repo": "flint-libsbml",
-        "rev": "f69dcc1c6d8d0916de4d940295d9665ae846cb5c",
+        "rev": "5f01e223b0c1be9e06d007718aec6ae1b9dab436",
         "type": "github"
       },
       "original": {
         "owner": "flintproject",
         "repo": "flint-libsbml",
+        "rev": "5f01e223b0c1be9e06d007718aec6ae1b9dab436",
         "type": "github"
       }
     },
@@ -61,16 +62,16 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1704420045,
-        "narHash": "sha256-C36QmoJd5tdQ5R9MC1jM7fBkZW9zBUqbUCsgwS6j4QU=",
+        "lastModified": 1735922141,
+        "narHash": "sha256-vk0xwGZSlvZ/596yxOtsk4gxsIx2VemzdjiU8zhjgWw=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "c1be43e8e837b8dbee2b3665a007e761680f0c3d",
+        "rev": "d29ab98cd4a70a387b8ceea3e930b3340d41ac5a",
         "type": "github"
       },
       "original": {
         "owner": "NixOS",
-        "ref": "nixos-23.11",
+        "ref": "nixos-24.11",
         "repo": "nixpkgs",
         "type": "github"
       }
